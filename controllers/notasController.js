@@ -7,6 +7,7 @@ const notasController = {
         try {
 
             const notas = {
+                prova:req.body.prova,
                 nota:req.body.nota
             }
 
@@ -86,6 +87,7 @@ const notasController = {
 
             const id = req.params.id
             const notas = {
+                prova:req.body.prova,
                 nota:req.body.nota
             }
 
